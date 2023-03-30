@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Type js</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+        *{
+            font-family: 'Raleway', sans-serif;
+        }
+        body{
+            background: #333;
+            overflow: hidden;
+            color:#ccc;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height:100%;
+            padding: 0 3rem;
+        }
+        h1, h2{
+            font-weight: 200;
+            margin: 0.4rem;
+        }
+
+        .title{
+            color:aquamarine; 
+            font-size: 3rem;
+            padding-bottom: 15px;
+            border-bottom: rgb(146, 146, 146) 1px solid;
+        }
+        
+        .download-secion {
+            text-align: center;
+            margin-top: 50px;
+            background: #2c2c2c;
+            padding: 15px;
+        }
+        .download-secion a{
+            color: #c2c2c2;
+            font-weight: bold;
+            text-decoration: none;
+            background: #5d5c5c;
+            padding: 29px;
+            border-radius: 10px 20px 10px 20px;
+        }
+        .download-secion a:hover{
+            background: #535353;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Type Js v2</h1>
+        <h1 >Exmple 1
+             <!--Every array of attribute should be in single quote.
+                for example,
+                 data-type-words='["value1", "value2"]'
+                 data-type-colors='["value1", "value2"]' 
+            -->
+             <span class="text-type" 
+                data-type-blink-speed = "500" 
+                data-type-wait="1000"
+                data-type-loop = 'false'
+                data-type-speed="200" 
+                data-remove-Speed="100" 
+                data-type-font-weight = '100'
+                data-type-words='["Web Developer","Frontend Developer", "Web Designer","Backend Developer"]'
+               ></span>
+        </h1>
+
+        <h1 >Exmple 2
+                <!--Every array of attribute should be in single quote.
+                   for example,
+                    data-type-words='["value1", "value2"]'
+                    data-type-colors='["value1", "value2"]' 
+               -->
+             <span class="text-type" 
+                   data-type-blink="true"
+                   data-type-blink-speed = "200" 
+                   data-type-wait="2000"
+                   data-type-speed="10" 
+                   data-remove-Speed="100" 
+                   data-type-font-weight = '100'
+                   data-type-words='["Web Developer","Frontend Developer", "Web Designer","Backend Developer"]'
+                ></span>
+        </h1>
+
+        <h1 >Exmple 3
+                <!--Every array of attribute should be in single quote.
+                   for example,
+                    data-type-words='["value1", "value2"]'
+                    data-type-colors='["value1", "value2"]' 
+               -->
+                <span class="text-type" 
+                   data-type-blink="true"
+                   data-type-blink-speed = "500" 
+                   data-type-wait="500"
+                   data-type-speed="70" 
+                   data-remove-Speed="20" 
+                   data-type-font-weight = '100'
+                   data-type-words='["Web Developer","Frontend Developer", "Web Designer","Backend Developer"]'
+                   data-type-colors = '["lightblue", "orange", "lightgreen"]',
+                  ></span>
+           </h1>
+
+           <h1 >Exmple 4
+                <!--Every array of attribute should be in single quote.
+                   for example,
+                    data-type-words='["value1", "value2"]'
+                    data-type-colors='["value1", "value2"]' 
+               -->
+                <span class="text-type" 
+                   data-type-blink="true"
+                   data-type-blink-speed = "500" 
+                   data-type-wait="2500"
+                   data-type-speed="0" 
+                   data-blink-text = '_'
+                   data-remove-Speed="200" 
+                   data-type-font-weight = 'bold'
+                   data-type-words ='["Web Developer","Frontend Developer", "Web Designer","Backend Developer"]'
+                   data-type-colors = '["lightblue", "orange", "lightgreen"]',
+                  ></span>
+           </h1>
+
+           
+           <h1 >Exmple 4
+                <!--Every array of attribute should be in single quote.
+                   for example,
+                    data-type-words='["value1", "value2"]'
+                    data-type-colors='["value1", "value2"]' 
+               -->
+                <span class="text-type" 
+                   data-type-blink="false"
+                   data-type-blink-speed = "500" 
+                   data-type-wait="1000",
+                   data-type-speed="0" 
+                   data-remove-Speed="0" 
+                   data-type-font-weight = '300'
+                   data-type-words='["Web Developer","Frontend Developer", "Web Designer","Backend Developer"]'
+                   data-type-colors = '["lightblue", "orange", "lightgreen"]',
+                  ></span>
+           </h1>
+           
+           <h1 >Exmple 6
+                <!--Every array of attribute should be in single quote.
+                   for example,
+                    data-type-words='["value1", "value2"]'
+                    data-type-colors='["value1", "value2"]' 
+               -->
+                <span class="text-type" 
+                   data-type-blink="true"
+                   data-type-blink-speed = "400" 
+                   data-type-wait="1000"
+                   data-type-speed="200" 
+                   data-blink-text = '_'
+                   data-remove-Speed="30" 
+                   data-type-font-weight = '400'
+                   data-type-words='["Web Developer","Frontend Developer", "Web Designer","Backend Developer"]'
+                   data-type-colors = '["lightblue", "orange", "lightgreen"]',
+                  ></span>
+           </h1>
+
+
+           <h1 >Exmple 7
+                <!--Every array of attribute should be in single quote.
+                   for example,
+                    data-type-words='["value1", "value2"]'
+                    data-type-colors='["value1", "value2"]' 
+               -->
+                <span class="text-type" 
+                   data-type-blink="true"
+                   data-type-blink-speed = "400" 
+                   data-type-wait="1000"
+                   data-type-speed="100" 
+                   data-remove-Speed="0" 
+                   data-type-font-weight = '400'
+                   data-type-words='["Web Developer","Frontend Developer", "Web Designer","Backend Developer"]'
+                   data-type-colors = '["lightblue", "orange", "lightgreen"]',
+                  ></span>
+           </h1>
+
+           <h1 >Exmple 8
+                <!--Every array of attribute should be in single quote.
+                   for example,
+                    data-type-words='["value1", "value2"]'
+                    data-type-colors='["value1", "value2"]' 
+               -->
+                <span class="text-type" 
+                   data-type-blink="true"
+                   data-type-blink-speed = "600" 
+                   data-type-wait="3000",
+                   data-type-speed="0" 
+                   data-remove-Speed="30" 
+                   data-type-font-weight = '900'
+                   data-type-words='["Web Developer","Frontend Developer", "Web Designer","Backend Developer"]'
+                   data-type-colors = '["chocolate", "yellow", "lightgreen"]',
+                  ></span>
+           </h1>
+
+           <div class="download-secion">
+                <a href="https://github.com/shantoislam6/Type-v2/archive/master.zip">DOWNLOAD</a>
+         </div>
+
+    <script src="src/type.js"></script>
+</body>
+</html>
